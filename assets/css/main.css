@@ -1,0 +1,234 @@
+@font-face {
+    font-family: 'khmer_sangam_mnregular';
+    src: url('../fonts/khmer_sangam_mn-webfont.woff2') format('woff2'),
+    url('../fonts/khmer_sangam_mn-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'arial_rounded_mt_boldbold';
+    src: url('../fonts/arlrdbd-webfont.woff2') format('woff2'),
+    url('../fonts/arlrdbd-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    margin:0;
+    padding:0;
+    background: linear-gradient(to right, #ffffff 30%, #C0E9FF 100%);
+}
+
+a,
+a:hover{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul li{
+    margin:0;
+    padding:0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin:0;
+    padding:0;
+}
+
+/******************************************************************************************************************
+                                            Start Header
+******************************************************************************************************************/
+
+header#Header {
+    padding-top: 15px;
+}
+
+.logo img {
+    height: 120px;
+}
+
+.name {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.name h1{
+    letter-spacing: 0px;
+    margin-bottom: 10px;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Germania One', cursive;
+    color: #2CC990;
+    text-transform: uppercase;
+}
+
+div.name h2 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    text-shadow: 2px 1px 2px #436d1c;
+    letter-spacing: 1px;
+    color: #243289;
+}
+
+div.email-call {
+    text-align: right;
+    padding-top: 10px;
+}
+
+section#Slider {
+    height: 60vh;
+    /*overflow: hidden;*/
+}
+
+#Header nav.navbar.navbar-expand-lg.navbar-light {
+    width: 100%;
+    text-align: right;
+    font-family: 'Germania One', cursive;
+    font-size:20px;
+    font-weight:600;
+    padding:20px 15px;
+}
+
+#Header nav.navbar.navbar-expand-lg.navbar-light .navbar-nav .nav-link{
+    color:#17B42F;
+    letter-spacing: 1px;
+}
+
+#Header nav.navbar.navbar-expand-lg.navbar-light .navbar-nav .nav-link:hover{
+    color:#399;
+}
+
+#Slider div.owl-carousel .owl-stage-outer {
+    max-height: 400px;
+}
+
+.slider-text {
+    position: absolute;
+    top: 20px;
+    right: 60px;
+    color: #fff;
+}
+
+.email{
+    color:#2CC990;
+}
+
+.email i.fa{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.email a{
+    color: #101010;
+    font-size: 18px;
+    padding-left: 7px;
+}
+
+.email a:hover{
+    color:#45CF9D;
+}
+
+#Slider .owl-carousel .owl-nav .owl-prev,
+#Slider .owl-carousel .owl-nav .owl-next{
+    position:absolute;
+    top:48%;
+    text-transform: uppercase;
+    color:#fff;
+}
+
+#Slider .owl-carousel .owl-nav .owl-prev{
+    left:15px;
+}
+
+
+
+#Slider .owl-carousel .owl-nav .owl-next{
+    right:15px;
+}
+
+.social-menu {
+    padding-top: 15px;
+}
+
+div.social-menu ul.text-right li{
+    display: inline-block;
+}
+
+div.social-menu ul.text-right li a{
+    color:#4DD1A2;
+    font-size:20px;
+    padding:5px 10px;
+}
+
+div.social-menu ul.text-right li a:hover{
+    color:#243386;
+    /*border:1px solid #98C1ED;*/
+    /*padding:4px 9px;*/
+    /*border-radius:50%;*/
+}
+
+
+
+#Brief{
+    padding-top:60px;
+}
+
+.single-division{
+    width:100%;
+    height:300px;
+}
+
+.Dhaka{
+    background:url("../images/Divisions/Dhaka-division.jpg") no-repeat;
+    background-size:contain;
+}
+
+.Chittagong{
+    background:url("../images/Divisions/Chittagong_Division.jpg") no-repeat;
+    background-size:contain;
+}
+
+.Rajshahi{
+    background:url("../images/Divisions/rajshahi-division.jpg") no-repeat;
+    background-size:contain;
+}
+
+.Sylhet{
+    background:url("../images/Divisions/Sylhet-division.jpg") no-repeat;
+    background-size:contain;
+}
+
+.Rangpur{
+    background:url("../images/Divisions/Rangpur Division.jpg") no-repeat;
+    background-size:contain;
+}
+
+.Khulna{
+    background:url("../images/Divisions/Khulna.jpg") no-repeat;
+    background-size:contain;
+}
+
+.Barishal{
+    background:url("../images/Divisions/barisal_division.jpg") no-repeat;
+    background-size:contain;
+}
+
+
+.Maymonshing{
+    background:url("../images/Divisions/Maymonshing-division.jpg") no-repeat;
+    background-size:contain;
+}
+
