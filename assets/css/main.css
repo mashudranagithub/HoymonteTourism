@@ -175,11 +175,6 @@ section#Slider {
     height: auto;
 }
 
-
-#Slider div.owl-carousel .owl-stage-outer {
-    max-height: 400px;
-}
-
 .slider-text {
     position: absolute;
     top: 20px;
@@ -250,6 +245,12 @@ section#Slider {
     padding-bottom:35px;
 }
 
+#Brief a.more {
+    font-size: 18px;
+    font-weight: 700;
+    color: green;
+}
+
 
 
 
@@ -278,6 +279,8 @@ section#Slider {
 #Divisions div.container.text-center h1 {
     padding-bottom: 50px;
     padding-top: 50px;
+    color: #399;
+    font-size: 35px;
 }
 
 .single-division{
@@ -448,9 +451,44 @@ section#Slider {
     padding-top:50px;
 }
 
+.footer-top{
+    padding-bottom: 30px;
+}
+
+.footer-top h3{
+    font-size: 25px;
+    color: #03C818;
+    padding-bottom: 15px;
+}
+
+.footer_social_menu{}
+
+.footer_social_menu li{
+        margin-top: 8px;
+}
+
+.footer_social_menu li a{
+        color: #fff;
+    font-size: 18px;
+}
+
+.footer_social_menu li a i{
+    color: #399;
+    padding-right: 10px;
+}
+
+.footer_social_menu li a:hover{
+    color:#399;
+}
+
+.footer_social_menu li a:hover i{
+    color:#fff;
+}
+
 .footer-logo{
-    width:100%;
-    height:auto;
+    width: 80%;
+    height: auto;
+    padding-bottom: 30px;
 }
 
 .footer-bottom{
@@ -460,6 +498,16 @@ section#Slider {
 
 .footer-bottom p{
     line-height:60px;
+}
+
+.footer-bottom a {
+    color: #84ED04;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.footer-bottom a:hover{
+    color: #399;
 }
 
 
