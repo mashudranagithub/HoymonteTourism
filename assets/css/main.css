@@ -609,19 +609,19 @@ section#Slider {
 
 #Blogs{
     font-family: 'Raleway', sans-serif;
-    padding:25px 0px 60px;
+    padding:5px 0px 60px;
 }
 
 #Blogs h1{
-    font-size:35px;
+    font-size: 25px;
     font-weight: 600;
     text-transform: uppercase;
-    color:#83ED00;
-    padding-bottom:30px;
+    color: #11ca76;
+    padding-bottom: 25px;
 }
 
 .single-blog{
-    padding-bottom:50px;
+    padding-bottom:60px;
 }
 
 .single-blog-img img {
@@ -747,6 +747,57 @@ a.btn-read-more-10:hover{
     float: left;
     padding-right: 30px;
 }
+
+aside{
+    padding-left:15px;
+    color:#000;
+}
+
+.recent_posts,
+.categories{
+    padding-bottom:40px;
+}
+
+.recent_posts h4,
+.categories h4,
+.tags h4{
+    font-size: 30px;
+    font-weight: 600;
+    color: #6d6a6a;
+    padding-bottom: 15px;
+}
+
+.recent_posts ul li,
+.categories ul li{
+    margin-top: 10px;
+}
+
+.recent_posts ul li a,
+.categories ul li a{
+    color:#000;
+    font-weight: 600;
+    transition: all 0.4s;
+    padding:5px 0px;
+}
+
+
+.recent_posts ul li a:hover,
+.categories ul li a:hover{
+    color:#399;
+    font-weight: 600;
+}
+
+.tags a{
+    color:#000;
+    font-size: 20px;
+    padding-right:10px;
+}
+
+
+.tags a:hover{
+    color:#399;
+}
+
 
 
 
